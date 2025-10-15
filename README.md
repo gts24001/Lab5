@@ -11,4 +11,6 @@
 # curl http://localhost:5000/list-subscribers
 # Apple> 
 # curl -X DELETE -H "Content-Type: application/json" -d "{\"name\":\"Bob\"}" http://localhost:5000/delete-subscriber
-#
+# Apple>
+# curl -X POST -H "Content-Type: application/json" -d '{ "subject-update": "buy IBM"}' https://glorious-space-eureka-r4vxjr7jp6vv3xw96-5000.app.github.dev/update-and-notify
+# https://glorious-space-eureka-r4vxjr7jp6vv3xw96-5000.app.github.dev/
